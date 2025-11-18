@@ -1,0 +1,170 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+.text_deco {
+    text-decoration: none;
+    color: white;
+}
+.nav-item:hover {
+    border-bottom: 2px solid red;
+}
+    .navbar-nav .active {
+    border-bottom: 2px solid red;
+}
+@media (max-width: 667px) {
+    .navbar-brand img {
+                margin-right: 150px;
+                margin-left: -150px;
+              }
+}
+.contact_banner {
+    height: 150px;
+    width: 100%;
+    background-image: url('https://giniconstructions.com/assets/img/contact10.webp');
+    background-size: cover;
+}
+.f_address {
+              color: #afb2b6;
+              margin-top: 30px;
+              padding-bottom: 10px;
+              font-size: 20px;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            }
+            .f_add {
+              color: #afb2b6;
+              margin-top: 30px;
+            }
+/* about us page*/
+
+ /*  @media (max-width:667px){
+       .about_img1 {
+        max-width: 200%;
+      }
+          }
+ */       
+
+.about_us_banner {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://giniconstructions.com/assets/img/about-mob2.webp');
+    background-size: cover;
+}
+.about_img1 {
+    height: 400px;
+    width: 100%;
+    background-image: url('https://giniconstructions.com/assets/img/about115.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+.about_img2 {
+    height: 300px;
+    background-image: url('https://giniconstructions.com/assets/img/about116.webp');
+    background-size: cover;
+    border-radius: 10px;
+    
+}
+.about_img3 {
+    height: 300px;
+    background-image: url('https://giniconstructions.com/assets/img/about117.jpg');
+    border-radius: 10px;
+    background-size: cover;
+}
+.card {
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  border: none;
+  border-radius: 0px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.title {
+  position: absolute;
+  bottom: 0px;
+  border-bottom: none;
+  border-top-left-radius: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: larger;
+}
+
+.details {
+  background-color: #fffefd;
+  max-height: 0;              /* hidden initially */
+  overflow: hidden;
+  background: white;
+  padding: 0 15px;
+  transition: max-height 0.4s ease;
+}
+
+.card:hover .details {
+  max-height: 400px;          /* reveal text */
+  padding: 15px;
+}
+
+.founder_img{
+  height: 400px;
+  width: 25%;
+  background-image: url('https://giniconstructions.com/assets/img/founder.webp');
+  background-size: cover;
+  margin-top: 100px;
+}
+
+/* projects page */
+
+.project_banner {
+    height: 200px;
+    width: 100%;
+    background-image: url('https://giniconstructions.com/assets/img/ongoing-project-1920x210.webp');
+    background-size: cover;
+}
+.cards {
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.card_image img {
+  display: block;
+  height: 200px;
+  width: 400px;
+  background-size: cover;
+}
+
+.card_title {
+  background-color:#6c6c6c ;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: large;
+}
+
+.card_footer {
+  background-color:white ;
+  text-align: center;
+  color: #77788c;
+  padding: 10px;
+  font-size: medium;
+}
+.card_image {
+  position: relative;
+              transition: transform 0.4s;
+  
+}
+.card_image:hover {
+  transform: scale(1.09);
+}
